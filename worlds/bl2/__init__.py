@@ -2,10 +2,11 @@ from typing import Dict, Any, Iterable, Optional, Union
 
 from BaseClasses import Region, Entrance, Location, Item, Tutorial, CollectionState
 from worlds.AutoWorld import World, WebWorld
+from .items import item_table, create_items, ItemData, Group, items_by_group
 
 client_version = 0
 
-class BL2World(WebWorld):
+class BL2WebWorld(WebWorld):
     theme = "dirt"
     bug_report_page = "https://github.com/matthe815/Archipelago"
 
@@ -19,11 +20,11 @@ class BL2World(WebWorld):
     )]
 
 
-class StardewValleyWorld(World):
+class BL2World(World):
     """
     BL2 is a game about picking up guns and shooting thing while picking up more guns and trying to save the vault from Handsome Jack.
     """
-    game = "Stardew Valley"
+    game = "Borderlands 2"
     option_definitions = stardew_valley_options
     topology_present = False
 
@@ -31,7 +32,7 @@ class StardewValleyWorld(World):
     location_name_to_id = {name: data.code for name, data in location_table.items()}
 
     data_version = 2
-    required_client_version = (0, 4, 0)
+    required_client_version = (0, 4, 1)
 
     options: StardewOptions
     logic: StardewLogic
