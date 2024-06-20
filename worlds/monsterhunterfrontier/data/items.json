@@ -1,0 +1,55 @@
+{
+	"all_items": [
+		"HR 1 Urgent Quest Ticket",
+		"HR 2 Urgent Quest Ticket",
+		"HR 3 Urgent Quest Ticket",
+		"HR 4 Urgent Quest Ticket",
+		"HR 5 Urgent Quest Ticket",
+		"HR 6 Urgent Quest Ticket",
+		"HR 7 Urgent Quest Ticket",
+		"Zenny",
+		"Random Item",
+		"Random Weapon",
+		"Random Armor",
+		"Star Guildie Badge",
+		"N Points",
+		"GCP"
+	],
+	"progression_items": [
+		"HR 1 Urgent Quest Ticket",
+		"HR 2 Urgent Quest Ticket",
+		"HR 3 Urgent Quest Ticket",
+		"HR 4 Urgent Quest Ticket",
+		"HR 5 Urgent Quest Ticket",
+		"HR 6 Urgent Quest Ticket",
+		"HR 7 Urgent Quest Ticket",
+		"Star Guildie Badge"
+	],
+	"useful_items": [
+		"Random Weapon",
+		"Random Armor"
+	],
+	"trap_items": [
+		"1 HP Trap",
+		"25 Stamina Trap",
+		"Faint Trap"
+	],
+	"required_pool": {
+		"HR 1 Urgent Quest Ticket": 1,
+		"HR 2 Urgent Quest Ticket": 1,
+		"HR 3 Urgent Quest Ticket": 1,
+		"HR 4 Urgent Quest Ticket": 1,
+		"HR 5 Urgent Quest Ticket": 1,
+		"HR 6 Urgent Quest Ticket": 1,
+		"HR 7 Urgent Quest Ticket": 1,
+		"Star Guildie Badge": 1
+	},
+	"junk_weights": {
+		"Zenny": 1,
+		"Random Item": 3,
+		"Random Weapon": 4,
+		"Random Armor": 4,
+		"N Points": 1,
+		"GCP": 2
+	}
+}
