@@ -38,10 +38,11 @@ This only works for the ZZ version of the game.
 ## Game Setup
 
 1. Make sure your database is properly setup with `admin` as the default password -> otherwise change the config.json later.
-2. Using the APFrontier.zip you downloaded earlier. Extract it somewhere.
-3. Within the folder is a setup.exe. Run that before anything else.
-4. Assuming default settings, open your command line and run `psql -d "dbname='erupe' user='postgres' password='admin' host='192.168.1.1'" -f setup.sql`.
-5. You are now ready to run the local server.
+2. Place your quests into the quests folder.
+3. Using the APFrontier.zip you downloaded earlier. Extract it somewhere.
+4. Within the folder is a setup.exe. Run that before anything else.
+5. Assuming default settings, open your command line and run `psql -d "dbname='erupe' user='postgres' password='admin' host='192.168.1.1'" -f setup.sql`.
+6. You are now ready to run the local server.
 
 ## Randomize!
 
